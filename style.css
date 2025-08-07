@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imagenes/fondo.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.generador,
+.lista-contrasenas {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.generador {
+    width: 300px;
+    flex-shrink: 0;
+    height: auto;
+    align-self: flex-start;
+    position: sticky;
+    top: 20px;
+}
+
+.lista-contrasenas {
+    top: 20px;
+    flex: 1;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+.grupo label {
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eef0f3;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.datos {
+    flex-grow: 1;
+}
+
+.nombre {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.contrasena {
+    font-family: monospace;
+}
+
+.botones {
+    display: flex;
+    gap: 5px;
+}

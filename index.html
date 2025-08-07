@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="generador">
+            <h1>🔐 Generador de Contraseñas</h1>
+
+            <div class="grupo">
+                <label for="nombre">Nombre (opcional):</label>
+                <input type="text" id="nombre" placeholder="Ej: Correo, GitHub..." />
+            </div>
+
+            <div class="grupo">
+                <label><input type="checkbox" id="mayusculas" checked /> Mayúsculas</label><br />
+                <label><input type="checkbox" id="minusculas" checked /> Minúsculas</label><br />
+                <label><input type="checkbox" id="numeros" checked /> Números</label><br />
+                <label><input type="checkbox" id="simbolos" /> Símbolos</label>
+            </div>
+
+            <button id="boton-generar">Generar y Guardar</button>
+        </div>
+
+        <div class="lista-contrasenas">
+            <h2>📋 Contraseñas Generadas</h2>
+            <ul id="contenedor-lista"></ul>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
