@@ -8,10 +8,10 @@
 - <img src="skills/javascript.png" alt="JavaScript" width="50"> JavaScript: Utilizado para crear las animaciones
 <a>
 Este Proyecto Genera una contraseña aleatoria de 12 caracteres con los caracteres que se elija:
-- <img src="imagenes/generador.PNG" alt="generador" width="250">
+<img src="imagenes/generador.PNG" alt="generador" width="250">
 
 - Se muestran las contraseñas generadas aleatorias
-- <img src="imagenes/guardadas.PNG" alt="generador" width="250">
+<img src="imagenes/guardadas.PNG" alt="generador" width="250">
 
 
 
