@@ -9,10 +9,10 @@
 
 
 Este Proyecto Genera una contraseña aleatoria de 12 caracteres con los caracteres que se elija:
-- <img src="imagenes/generador.png" alt="generador" width="75">
+- <img src="imagenes/generador.PNG" alt="generador" width="75">
 
 Se muestran las contraseñas generadas aleatorias
-- <img src="guardadas/generador.png" alt="generador" width="75">
+- <img src="guardadas/guardadas.PNG" alt="generador" width="75">
 
 
 
